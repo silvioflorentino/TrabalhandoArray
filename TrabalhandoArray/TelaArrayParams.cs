@@ -28,5 +28,10 @@ namespace TrabalhandoArray
 
             return soma / numeros.Length;
         }
+
+        private void btnExecutar_Click(object sender, EventArgs e)
+        {
+            lbResul.Items.Add("Média dos valores: 25,45,78,15,78 é " + UsandoArrayParams(25,45,78,15,78));
+        }
     }
 }
